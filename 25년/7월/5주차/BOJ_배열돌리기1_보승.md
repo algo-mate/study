@@ -1,4 +1,4 @@
-## 문제(실버 2) 
+## 문제(골드 5) 
 
 [배열돌리기1](https://www.acmicpc.net/problem/16926) 
 
