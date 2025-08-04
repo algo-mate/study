@@ -1,4 +1,4 @@
-## 문제(브론즈 3) 
+## 문제(브론즈 3)
 
 [문자삼각형1](https://jungol.co.kr/problem/1338?cursor=NiwwLDEw)
 
@@ -7,7 +7,6 @@
 문자 저장이 핵심 아이디어인 문제이다.
 
 이외에는 인덱스 변수와 문자 인덱스 변수만 잘 분리하면 크게 어렵지 않은 문제였다!
-
 
 ## 정답
 
@@ -41,7 +40,7 @@ public class Main {
                 }
             }
         }
-        
+
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
                 System.out.print(String.valueOf(arr[i][j]) + " ");
