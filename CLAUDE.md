@@ -138,6 +138,26 @@ function collect_week_files_v6() {
 - ✅ **Encoding Resilient**: No more `cat: No such file or directory` errors
 - ✅ **Extensible**: Easy expansion to new months (September, October, etc.)
 
+## Git Operations
+
+### Commit and Push Commands
+**Quick Commands:**
+- `"git 메시지 작성해서 push 해"`
+- `"커밋하고 푸시해줘"`
+- `"변경사항 커밋 후 원격 저장소에 올려줘"`
+
+### Auto Commit Process
+When committing changes, Claude will:
+1. Check git status and recent commits
+2. Add untracked files to staging area
+3. Create commit following the convention: `✨ feat: {주요_변경사항}_{카테고리}_{타입}`
+4. Push to remote repository
+
+### Commit Message Examples
+- `✨ feat: 8월_3주차_스터디_알고리즘_구현`
+- `✨ feat: CLAUDE_설정_파일_추가_구성`
+- `✨ feat: 알고리즘_파일_수집_자동화_구현`
+
 ## Common Development Tasks
 
 Since this is a documentation-based algorithm study repository, there are no build, test, or lint commands. The primary workflow involves:
@@ -147,3 +167,4 @@ Since this is a documentation-based algorithm study repository, there are no bui
 3. Following commit message conventions
 4. Conducting peer code reviews
 5. **Automated migration** of solutions from SSAFY repositories
+6. **Git operations** for version control and collaboration
